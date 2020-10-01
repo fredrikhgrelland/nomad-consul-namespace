@@ -1,0 +1,3 @@
+consul {
+  namespace = "admin"
+}

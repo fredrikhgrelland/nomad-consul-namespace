@@ -1,0 +1,6 @@
+- name: Copy nomad binary from /vagrant/dev/bin
+  copy:
+    src: /vagrant/dev/vagrant/bin/nomad
+    remote_src: true
+    dest: /usr/local/bin/oss/nomad
+    mode: 'a+x'
